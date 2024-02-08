@@ -2,6 +2,7 @@
   "sections": {
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
@@ -43,10 +44,28 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_product_list_TmtE8n": {
+      "type": "custom-product-list",
+      "settings": {
+        "section_heading": "Our Bestsellers",
+        "product_list": [
+          "blue-oxford-shirt",
+          "black-stripe-spring-oxford-shirt",
+          "august-rib-wool-oak",
+          "carhartt-coat-black",
+          "carson-chore-jacket-black-hole",
+          "denim-chore-coat-black",
+          "columbia-tee-worn-olive"
+        ],
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "featured_collection",
-    "custom_image_with_text_HcWXmt"
+    "custom_image_with_text_HcWXmt",
+    "custom_product_list_TmtE8n"
   ]
 }
