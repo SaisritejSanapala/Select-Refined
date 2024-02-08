@@ -101,7 +101,7 @@
         "heading_QqxqGH": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Image with text{{ product.metafields.custom.image_with_text.value.heading.value }}",
             "heading_size": "h1"
           }
         },
@@ -127,6 +127,7 @@
         "button_izAMU9"
       ],
       "settings": {
+        "image": "{{ product.metafields.custom.image_with_text.value.image.value }}",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
