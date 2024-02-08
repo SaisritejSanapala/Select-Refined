@@ -127,7 +127,6 @@
         "button_izAMU9"
       ],
       "settings": {
-        "image": "{{ product.metafields.custom.why_should_you_buy.value }}",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
