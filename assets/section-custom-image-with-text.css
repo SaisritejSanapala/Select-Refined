@@ -1,0 +1,120 @@
+
+  .custom-image-with-text {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .custom-image-with-text__text-item {
+    padding-top: 24px;
+  }
+
+  .custom-image-with-text__image {
+    width: 100%;
+    position: relative;
+    padding-bottom: 100%;
+  }
+
+  .custom-image-with-text__image img, .custom-image-with-text__image svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+  }
+
+
+  .custom-image-with-text__button-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .custom-image-with-text__text-item h2 {
+    margin: 0;
+    font-weight: 500;
+
+  }
+
+  .custom-image-with-text__text-item__heading {
+    color: #181818;
+    letter-spacing: normal;
+    font-size: 25px;
+
+  }
+
+
+  .custom-image-with-text__text-item__description {
+    color: #838282;
+    margin: 0 0 32px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+
+  }
+
+
+  .custom-image-with-text__button-container a {
+    text-decoration: none;
+    line-height: 12px;
+    letter-spacing: 0.9px;
+    position: relative;
+    color: #181818;
+    font-weight: 700;
+    font-size: 12px;
+
+  }
+
+  .custom-image-with-text__button-container a:first-child {
+    padding-right: 10px;
+    border-right: 1.5px solid black;
+    margin-right: 10px;
+  }
+
+  .custom-image-with-text__button-container a::before {
+    position: absolute;
+    content: "";
+    top: 120%;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background: black;
+  }
+
+
+  .custom-image-with-text__button-container a:hover::before {
+    width: 100%;
+    transition: width 0.5s ease;
+  }
+
+
+  .custom-image-with-text__button-container a:not(:hover)::before {
+    width: 0;
+    transition: width 0.5s ease;
+  }
+
+
+  @media screen and (min-width: 990px) {
+    .custom-image-with-text {
+      flex-direction: row;
+    }
+
+    .custom-image-with-text__text-item {
+      width: 25%;
+      padding-left: 40px;
+
+    }
+
+    .custom-image-with-text__image {
+      position: static;
+      padding-bottom: 0;
+      width: 75%;
+    }
+
+    .custom-image-with-text__image img, .custom-image-with-text__image svg {
+
+      position: static;
+
+    }
+
+
+  }

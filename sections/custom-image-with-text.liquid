@@ -1,0 +1,182 @@
+
+{{ 'section-custom-image-with-text.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  .custom-image-with-text__text-item-{{section.id}}{
+    align-self: {{section.settings.text_item_allignment}}
+  }
+
+{% endstyle %}
+
+
+
+
+<div class="section-{{section.id}}-padding">
+  <div class="page-width">
+    <div class="custom-image-with-text">
+      {% if section.settings.desktop_image != blank and section.settings.mobile_image != blank %}
+
+        <div class="custom-image-with-text__image">
+          {% render 'responsive-image'
+            , desktopImage: section.settings.desktop_image
+            , mobileImage: section.settings.mobile_image %}
+
+        </div>
+
+      {% else %}
+
+        <div class="custom-image-with-text__image">
+          {{ 'hero-apparel-1' | placeholder_svg_tag }}
+
+        </div>
+
+
+      {% endif %}
+
+
+      <div class="custom-image-with-text__text-item custom-image-with-text__text-item-{{section.id}}">
+        {% if section.settings.heading != blank %}
+
+          <h2 class="custom-image-with-text__text-item__heading">{{ section.settings.heading }}</h2>
+
+        {% endif %}
+
+        {% if section.settings.description != blank %}
+
+          <p class="custom-image-with-text__text-item__description">{{ section.settings.description }}</p>
+
+        {% endif %}
+
+
+        {% if section.settings.button_1_text != blank and section.settings.button_2_text %}
+
+          <div class="custom-image-with-text__button-container">
+
+            <a href="{{section.settings.button_1_link}}">{{section.settings.button_1_text}}</a>
+            <a href="{{section.settings.button_2_link}}">{{section.settings.button_2_text}}</a>
+          </div>
+
+        {% endif %}
+
+
+      </div>
+
+    </div>
+  </div>
+
+
+</div>
+
+
+{% schema %}
+  {
+    "name": "Custom Image with Text",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "desktop_image",
+        "label": "Desktop Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "mobile_image",
+        "label": "Mobile Image"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Wear the Story of Every Moment with Distinction"
+      },
+      {
+        "type": "text",
+        "id": "description",
+        "label": "Description",
+        "default": "Each piece speaks of moments lived, memories made, and a future of distinction."
+      },
+      {
+        "type": "text",
+        "id": "button_1_text",
+        "label": "First Button Text",
+        "default": "SHOP SHIRTS"
+      },
+      {
+        "type": "text",
+        "id": "button_2_text",
+        "label": "Second Button Text",
+        "default": "SHOP TOPS"
+      },
+      {
+        "type": "url",
+        "id": "button_1_link",
+        "label": "First Button Link"
+      },
+      {
+        "type": "url",
+        "id": "button_2_link",
+        "label": "Second Button Link"
+      },
+      {
+        "type": "select",
+        "id": "text_item_allignment",
+        "label": "Allignment",
+        "options": [
+          {
+            "value": "flex-start",
+            "label": "Top"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "flex-end",
+            "label": "Bottom"
+          }
+
+        ],
+        "default": "flex-end"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "label": "Padding top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "default": 36
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "label": "Padding Bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "default": 36
+      }
+
+    ],
+    "presets": [
+      {
+        "name": "Custom Image with Text"
+      }
+    ]
+  }
+{% endschema %}
