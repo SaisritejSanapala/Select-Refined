@@ -101,7 +101,7 @@
         "heading_QqxqGH": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text{{ product.metafields.custom.image_with_text.value.heading.value }}",
+            "heading": "Image with text{{ product.metafields.custom.image_with_text.value.heading.value }}{{ product.metafields.custom.image_with_text.value.heading.value }}",
             "heading_size": "h1"
           }
         },
