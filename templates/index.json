@@ -31,6 +31,7 @@
     },
     "custom_image_with_text_HcWXmt": {
       "type": "custom-image-with-text",
+      "disabled": true,
       "settings": {
         "desktop_image": "shopify:\/\/shop_images\/hero-image.webp",
         "mobile_image": "shopify:\/\/shop_images\/hero-image.webp",
@@ -47,6 +48,7 @@
     },
     "custom_product_list_TmtE8n": {
       "type": "custom-product-list",
+      "disabled": true,
       "settings": {
         "section_heading": "Individual Styles Redefined",
         "product_list": [
