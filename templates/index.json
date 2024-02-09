@@ -194,6 +194,53 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collection_list_t7aAPF": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_7zMfFP": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "custom-products"
+          }
+        },
+        "featured_collection_7rwBxa": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "latest-collection"
+          }
+        },
+        "featured_collection_GhGNWV": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "featured_collection_Vi6Pdm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "carefree-classics"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_7zMfFP",
+        "featured_collection_7rwBxa",
+        "featured_collection_GhGNWV",
+        "featured_collection_Vi6Pdm"
+      ],
+      "settings": {
+        "title": "Shop by Categories",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -203,6 +250,7 @@
     "image_with_text_Jtt9jy",
     "featured_collection_nLaJR7",
     "image_banner_3YmJE9",
-    "featured_collection_QndRxV"
+    "featured_collection_QndRxV",
+    "collection_list_t7aAPF"
   ]
 }
