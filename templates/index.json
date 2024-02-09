@@ -145,33 +145,13 @@
         "heading_FkWQDC": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Limited Time Only.The Sale is Coming to a Close Soon",
             "heading_size": "h1"
-          }
-        },
-        "text_nAqXXT": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "buttons_UdcJd8": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_FkWQDC",
-        "text_nAqXXT",
-        "buttons_UdcJd8"
+        "heading_FkWQDC"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/download.webp",
