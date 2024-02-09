@@ -322,6 +322,47 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "collapsible_content_AtAXYm": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_r8ntPf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does it typically take to process an order?",
+            "icon": "none",
+            "row_content": "<p>Once your order is placed, it usually takes 1-2 business days to process. You will receive a confirmation email once your order is shipped.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_A4gfqJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you ship internationally?",
+            "icon": "none",
+            "row_content": "<p>Yes, we offer international shipping to many countries. Please note that shipping rates and delivery times vary by destination. You can find more information about international shipping at checkout.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_r8ntPf",
+        "collapsible_row_A4gfqJ"
+      ],
+      "settings": {
+        "caption": "From common queries to niche details, we've addressed them all.",
+        "heading": "Discover More in Our FAQ Corner",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "row",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -334,6 +375,7 @@
     "featured_collection_QndRxV",
     "collection_list_t7aAPF",
     "featured_collection_cATP4K",
-    "slideshow_zVWMCf"
+    "slideshow_zVWMCf",
+    "collapsible_content_AtAXYm"
   ]
 }
