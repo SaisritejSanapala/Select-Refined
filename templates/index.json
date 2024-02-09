@@ -270,59 +270,6 @@
         "padding_bottom": 36
       }
     },
-    "slideshow_zVWMCf": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_zriPN4": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_c43EVJ": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_zriPN4",
-        "slide_c43EVJ"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "small",
-        "slider_visual": "dots",
-        "auto_rotate": true,
-        "change_slides_speed": 3,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "collapsible_content_AtAXYm": {
       "type": "collapsible-content",
       "blocks": {
@@ -363,6 +310,61 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "slideshow_zVWMCf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_zriPN4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_0d840431-915b-4d4d-94dd-c226222ac26c.webp",
+            "heading": "Your Casual Wardrobe, Reinvented: Experience Fashion Crafted for Every Facet ",
+            "heading_size": "h1",
+            "subheading": "Find your perfect fit with our latest additions.",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_c43EVJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_9041a1eb-0ca4-4d16-9cfe-f31a2a039035.webp",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_zriPN4",
+        "slide_c43EVJ"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
@@ -375,7 +377,7 @@
     "featured_collection_QndRxV",
     "collection_list_t7aAPF",
     "featured_collection_cATP4K",
-    "slideshow_zVWMCf",
-    "collapsible_content_AtAXYm"
+    "collapsible_content_AtAXYm",
+    "slideshow_zVWMCf"
   ]
 }
