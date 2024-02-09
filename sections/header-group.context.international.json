@@ -4,5 +4,12 @@
     "market": "international"
   },
   "sections": {
+    "announcement-bar": {
+      "settings": {
+        "show_social": true
+      },
+      "blocks": {
+      }
+    }
   }
 }

@@ -100,7 +100,7 @@
     "brand_headline": "",
     "brand_description": "<p><\/p>",
     "brand_image_width": 100,
-    "social_facebook_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/",
     "social_instagram_link": "",
     "social_youtube_link": "",
     "social_tiktok_link": "",
@@ -138,7 +138,7 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#fff",
+          "background": "#ffffff",
           "background_gradient": "",
           "text": "#121212",
           "button": "#121212",
