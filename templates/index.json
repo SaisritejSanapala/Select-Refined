@@ -70,21 +70,21 @@
         "heading_xFjbja": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Wear the Story of Every Moment with Distinction",
             "heading_size": "h1"
           }
         },
         "text_8ADYnh": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Each piece speaks of moments lived, memories made, and a future of distinction.<\/p>",
             "text_style": "body"
           }
         },
         "button_CVYXec": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "SHOP SHIRTS",
             "button_link": "",
             "button_style_secondary": false
           }
