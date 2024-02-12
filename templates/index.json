@@ -112,6 +112,7 @@
     },
     "featured_collection_nLaJR7": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Individual Styles Redefined",
         "heading_size": "h2",
